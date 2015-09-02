@@ -14,6 +14,9 @@ body {
     width: 100%;
     height: 50px;
 }
+.research img {
+	padding: 100px;
+}
 .pad-nav{
 	height: 50px;
 }
@@ -44,7 +47,7 @@ filter: grayscale(1); /* Firefox 35+ */
 	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:306px;color: #fff;background-color: #CDCDC0;
 }
 #research {
-	padding-right:100px;padding-left:250px;width:100%;height:300px;color: #fff;background-color: #CDCDC0;
+	width:100%;height:300px;color: #fff;background-color: #CDCDC0;
 }
 
 #section1 {
@@ -63,18 +66,15 @@ filter: grayscale(1); /* Firefox 35+ */
 	padding-top:50px;width:100%;height:706px;color: #fff;background-color: #DDBC95;
 }
 #sidebar {
-	width:100px;
+	width:80px;
 	top:280px;
 }
 #sidebar.affix {
     position: fixed;
-    top:280px;
-    width:100px;
+    top:230px;
+    width:80px;
   }
-}table {
-    table-layout: fixed;
-    word-wrap: break-word;
-}
+
 div.img-div{
     height:200px;
     width:200px;
@@ -87,11 +87,22 @@ div.img-div{
     margin-left:100px;
 }
 
-.circle-image{
-    width:200px;
-    height:200px;
-    border-radius:50%;
-    background-image:url("http://placekitten.com/g/200/400");
+#res-images li {
+    display:inline;
+    float:left;
+		text-align:center;
+    width:110px;
+    margin-left:20px;
+    margin-right:70px;
+    margin-top:15px;
+}
+
+#res-images a {
     display:block;
-    background-position-y:25%
+		padding-top:5px;
+    margin-right:0% auto;
+    padding-left:0% auto;
+    color:#5E09CB;
+    text-decoration:none;
+
 }
