@@ -1,0 +1,123 @@
+body {
+	position: relative;
+}
+
+.navbar-default {
+    background-color: #003B46;
+    border-color: #E7E7E7;
+}
+.container {
+	width: 50px;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: 50px;
+}
+.research img {
+	padding: 100px;
+}
+.pad-nav{
+	height: 50px;
+}
+.res-pad{
+	padding-top: 50px;
+	float:right;
+}
+.res-pad-wifi{
+	margin-top: 0px;
+	float:right;
+}
+.pad-img{
+	margin-top:75px;
+	padding-top:70px;
+	padding-right:70px;
+	padding-left:70px;
+	padding-bottom:70px;
+}
+.side-nav{
+	padding-top:180px;
+	width:228px;
+}
+.container-text{
+	padding-left:200px;
+	padding-top:125px;
+}
+
+img {
+filter: grayscale(1); /* Firefox 35+ */
+}
+h-font {
+	color: #003B46
+}
+#title {
+	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:100px;color: #FFF;background-color: #99C9D0;
+}
+#home {
+	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:306px;color: #FFF;background-color: #99C9D0;
+}
+#research {
+	width:100%;height:300px;color: #FFF;background-color: #99C9D0;
+}
+#section1 {
+	padding-top:50px;width:100%;height:50px;color: #fff;background-color: #07575B;
+}
+#section1_text {
+	width:100%;height:676px;color: #fff;background-color: #07575B;
+}
+
+#section2 {
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #66A5AD;
+}
+
+#section3 {
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #07575B;
+}
+
+#section4 {
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #66A5AD;
+}
+#other {
+	padding-top:50px;;width:100%;height:726px;color: #fff;background-color: #CDCDC0;
+
+}
+#sidebar {
+	width:80px;
+	top:280px;
+}
+#sidebar.affix {
+    position: fixed;
+    top:230px;
+    width:80px;
+  }
+
+div.img-div{
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.img-div img{
+    -webkit-transform:translate(-50%);
+    margin-left:100px;
+}
+
+#res-images li {
+    display:inline;
+    float:left;
+		text-align:center;
+    width:110px;
+    margin-left:20px;
+    margin-right:70px;
+    margin-top:15px;
+}
+
+#res-images a {
+    display:block;
+		padding-top:5px;
+    margin-right:0% auto;
+    padding-left:0% auto;
+    text-decoration:none;
+
+}
