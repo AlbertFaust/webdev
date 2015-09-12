@@ -20,16 +20,7 @@ body {
 .pad-nav{
 	height: 50px;
 }
-.res-pad{
-	padding-top: 50px;
-	float:right;
-}
-.res-pad-wifi{
-	margin-top: 0px;
-	float:right;
-}
 .pad-img{
-	margin-top:75px;
 	padding-top:70px;
 	padding-right:70px;
 	padding-left:70px;
@@ -41,45 +32,38 @@ body {
 }
 .container-text{
 	padding-left:200px;
-	padding-top:125px;
+	padding-top:20%;
 }
-
+.container-text-mob{
+	padding-left:200px;
+}
 img {
 filter: grayscale(1); /* Firefox 35+ */
 }
-h-font {
-	color: #2A2922
-}
 #title {
-	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:100px;color: #625D71;background-color: #F3EBDD;
+	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:100px;color: #fff;background-color: #CDCDC0;
 }
 #home {
-	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:306px;color: #625D71;background-color: #F3EBDD;
+	padding-top: 30px; padding-right:100px;padding-left:250px;width:100%;height:306px;color: #fff;background-color: #CDCDC0;
 }
 #research {
-	width:100%;height:300px;color: #625D71;background-color: #F3EBDD;
+	width:100%;height:300px;color: #fff;background-color: #CDCDC0;
 }
+
 #section1 {
-	padding-top:50px;width:100%;height:50px;color: #fff;background-color: #ABA291;
-}
-#section1_text {
-	width:100%;height:676px;color: #fff;background-color: #ABA291;
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #DDBC95;
 }
 
 #section2 {
-	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #8B7E69;
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #B38867;
 }
 
 #section3 {
-	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #ABA291;
+	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #CDCDC0;
 }
 
 #section4 {
-	padding-top:50px;width:100%;height:726px;color: #fff;background-color: #8B7E69;
-}
-#other {
-	padding-top:50px;;width:100%;height:726px;color: #fff;background-color: #CDCDC0;
-
+	padding-top:50px;width:100%;height:706px;color: #fff;background-color: #DDBC95;
 }
 #sidebar {
 	width:80px;
@@ -118,6 +102,7 @@ div.img-div{
 		padding-top:5px;
     margin-right:0% auto;
     padding-left:0% auto;
+    color:#5E09CB;
     text-decoration:none;
 
 }
