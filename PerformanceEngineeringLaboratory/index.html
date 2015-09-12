@@ -3,8 +3,10 @@
 <head>
   <title>PEL@DCU</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link id="pagestyle" href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">
+<link rel="stylesheet" media="all and (orientation:landscape)" href="style.css">
+<link rel="stylesheet" href="mobile.css" type="text/css" media="only screen and (max-width:640px)">
   <script language="javascript" type="text/javascript"></script>
   <script src="script.js"></script>
 
@@ -18,7 +20,14 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a href="index.html" class="pull-left"><img src="pel_dcu_logo.jpg"></a>
+      <button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+         <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
     </div>
+    <div class = "collapse navbar-collapse navHeaderCollapse"
     <div>
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="index.html">Home</a></li>
@@ -31,37 +40,37 @@
       </ul>
     </div>
   </div>
+  </div>
 </nav>
-
-<div class="pad-nav">
-	<img class="pad-img img-responsive img-circle pull-left" src="dcu.png" width="550" height="550" onclick="swapStyleSheet('pagestyle')">
+<div id="dcu" class="container">
+<img class="pad-img img-responsive img-circle pull-left" src="dcu.png" onclick="swapStyleSheet('pagestyle')">
 </div>
-<div id="title" class="container">
+<div id="homepage" class="container">
+<div class="text">
 <h-font><h1 align="center">
 Welcome to PEL@DCU
 </h1></h-font>
-</div>
 
-<div id="home" class="container">
 	<p>The Performance Engineering Laboratory (PEL) at DCU aims at developing performance-based solutions for next generation information and communication technology (ICT) systems.</p>
 
 	<p>The research carried out in this lab combines engineering research in the areas of Mobile and Wireless Communications Quality-aware Multimedia Delivery Adaptive E-learning and Energy-aware Networking. These all reflect the synergy between electronics, informatics and software engineering in the development of ICT in the 21st century.</p>
 
 	<p>Researchers from different cultural backgrounds, including: Ireland, Korea, Germany, Romania, France, India, Vietnam, China, Bangladesh and Bosnia and Herzegovina, are working together and sharing their valuable expertise with each other and industry partners. PEL at DCU has various collaborations with major companies in IT industry. The alumnus of this lab spread in different countries over the world.</p>
 
-	<p>PEL is mainly located within Dublin City University (DCU) and University College Dublin (UCD). There are PEL members in NUI Galway, Athlone IT, Carlow IT, NCI Dublin, and Letterkenny IT. </p>
+	<p>PEL is mainly located within Dublin City University and University College Dublin. There are members in NUI Galway, Athlone IT, Carlow IT, NCI Dublin, and Letterkenny IT. </p>
+
 </div>
-<div id="research" class="container">
-  <h-font><h1 style="text-indent: 6.16em;">
+<div id="res-images">
+  <h-font><h1 align="center">
   Research Interests
 </h1></h-font>
-
-<div id="res-images">
 <ul>
+  <li class="res">
 <li><a href="#section1"><img class="img-circle img-div" src="4.jpg" width="100" height="100"></a><a href="#section1" style="color: #625D71"><h-font>Mobile and Wifi Communications</h-font></a></li>
 <li><a href="#section2"><img class="img-circle img-div" src="2.png" width="100" height="100"></a><a href="#section2" style="color: #625D71"><h-font>Quality-Aware Multimedia Delivery<h-font></a></li>
 <li><a href="#section3"><img class="img-circle img-div" src="1.png" width="100" height="100"></a><a href="#section3" style="color: #625D71"><h-font>Adaptive E-Learning<h-font></a></li>
 <li><a href="#section4"><img class="img-circle img-div" src="3.png" width="100" height="100"></a><a href="#section4" style="color: #625D71"><h-font>Energy-Aware Networking<h-font></a></li>
+</li>
 </ul>
 </div>
 </div>
@@ -76,14 +85,13 @@ Welcome to PEL@DCU
           <li><a href="#section4"><img class="img-circle img-div img-responsive" src="3.png" width="50" height="50"></a></li>
         </ul>
 </div>
-</div>
-<div class="res-pad-wifi">
-	<img class="pad-img img-circle pull-left" src="4.jpg" width="550" height="550">
+
+<div class="res-pad">
+	<img class="res-pad-img img-responsive img-circle pull-left" src="4.jpg" width="550" height="550">
 </div>
 <!--<img class="pad-img img-responsive img-circle pull-right" src="4.jpg" style="float:right" width="550" height="550">-->
 
-<div id="section1_text" class="container">
-<div class="container-text">
+<div class="container-text-wifi">
 <h1>Mobile and Wireless Communications</h1>
   <p>WiFi(IEEE 802.11a/b/g/n), WiMax(IEEE 802.16/a/e), UWB, Bluetooth, Wireless USB technologies, Mobility issues: discovery, selection, handover, etc., Vehicular Wireless Networks </p>
 <p>Lorem ipsum dolor sit amet, etiam at magna consectetur, porta eros id, porttitor magna. Nullam molestie sapien feugiat pellentesque vehicula. Praesent fermentum mauris in viverra ultricies. Nulla consectetur accumsan ante, aliquet gravida enim faucibus vel. Etiam vel bibendum tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec feugiat dapibus arcu at pulvinar. Cras at semper est. </p>
@@ -91,7 +99,7 @@ Welcome to PEL@DCU
 </div>
 </div>
 <div class="res-pad">
-	<img class="pad-img img-responsive img-circle pull-left" src="2.png" width="550" height="550">
+	<img class="res-pad-img img-responsive img-circle pull-left" src="2.png" width="550" height="550">
 </div>
 <div id="section2" class="container">
 <div class="container-text">
@@ -102,7 +110,7 @@ Welcome to PEL@DCU
 </div>
 </div>
 <div class="res-pad">
-	<img class="pad-img img-responsive img-circle pull-left" src="1.png" width="550" height="550">
+	<img class="res-pad-img img-responsive img-circle pull-left" src="1.png" width="550" height="550">
 </div>
 <div id="section3" class="container">
 <div class="container-text">
@@ -113,7 +121,7 @@ Welcome to PEL@DCU
 </div>
 </div>
 <div class="res-pad">
-	<img class="pad-img img-responsive img-circle pull-left" src="3.png" width="550" height="550">
+	<img class="res-pad-img img-responsive img-circle pull-left" src="3.png" width="550" height="550">
 </div>
 <div id="section4" class="container">
 <div class="container-text">
